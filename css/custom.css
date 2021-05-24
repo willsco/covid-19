@@ -65,6 +65,38 @@ h1::after {
     background-color: #c11410;
 }
 
+div.tright {
+    clear: right;
+    float: right;
+    border: none;
+    margin: 0.5em 0 0.8em 1.4em;
+}
+
+div.tleft {
+    border: none;
+    margin: 0.5em 1.4em 0.8em 0;
+    float: left;
+    clear: left;
+}
+
 .image {
     max-width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+.footer-menu a{
+    text-decoration-line: none;
+    font-weight: 600;
+    color: black;
+    font-size: larger;
+}
+
+.footer-menu li{
+    list-style-type: none;
+}
+
+.footer-logo img{
+    max-width: 225px;
 }
