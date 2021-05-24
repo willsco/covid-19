@@ -2,6 +2,7 @@
 <html lang="pt_BR">
 
 <!-- Abre tag "head" para configurações e carregamento de arquivos -->
+
 <head>
     <!-- Faz primeira conexão e fica na "escuta" para carregar arquivos estáticos do Google (opcional) -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +17,7 @@
     <!-- Define a codificação da página -->
     <meta charset="UTF-8">
     <!-- Exibe o título na aba do navegador -->
-    <title>COVID-19</title>
+    <title>Página Principal</title>
     <!-- Tag exclusiva para Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tag que define marcação inicial para responsividade do layout mediante "media queries"-->
@@ -31,16 +32,46 @@
 </head> <!-- Fecha tag "head" -->
 
 <!-- Abre tag "body" onde vai o conteúdo do sítio -->
+
 <body>
-    <h1 class="font1">O texto de TESTE Aqui para H1 usando uma fonte do Google.</h1>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html"><img class="logo-header" src="img/covid_img.png" alt=""></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <section>
 
-    <h2 class="font2">Outro texto de TESTE Aqui para H2 usando uma fonte personalizada.</h2>
-    <p>Um texto de parágrafo para exibir como é o texto usando a fonte padrão definida no CSS com o "*".</p>
-    <!-- Coloca uma imagem com classe para adaptar ao tamanho máximo do conteiner (classe "imagem" definida no arquivo CSS) -->
-    <img class="imagem" src="img/imagem-teste.jpg"/>
+                <h1 class="font1">O texto de TESTE Aqui para H1 usando uma fonte do Google.</h1>
 
-    <!-- Carrega o arquivo JS customizado (Rogério ainda não ensinou)-->
-    <script src="js\custom.js"></script> 
+                <h2 class="font2">Outro texto de TESTE Aqui para H2 usando uma fonte personalizada.</h2>
+                <p>Um texto de parágrafo para exibir como é o texto usando a fonte padrão definida no CSS com o "*".</p>
+                <!-- Coloca uma imagem com classe para adaptar ao tamanho máximo do conteiner (classe "imagem" definida no arquivo CSS) -->
+                <img class="imagem" src="img/imagem-teste.jpg" />
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo"><img src="img/covid_img.png" alt=""></div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

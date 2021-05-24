@@ -1,45 +1,54 @@
 * {
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 .font1 {
     font-family: "Poppins", sans-serif;
 }
 
-.font2 {
-    font-family: "Circular Std", sans-serif;
+body {
+    margin: 0px;
 }
 
-@font-face {
-    font-family: Circular Std;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/CircularStd-Book.otf);
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    max-width: 100%;
+    align-items: center;
 }
 
-@font-face {
-    font-family: Circular Std;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/CircularStd-Medium.otf);
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+.logo-header {
+    max-width: 300px;
 }
 
-@font-face {
-    font-family: Circular Std;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/CircularStd-Bold.otf);
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+.main-menu a {
+    text-decoration-line: none;
+    font-weight: 600;
+    color: black;
+    font-size: larger;
 }
 
-@font-face {
-    font-family: Circular Std;
-    font-style: normal;
-    font-weight: 900;
-    src: url(../assets/fonts/CircularStd-Black.otf);
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+.main-menu a:hover {
+    text-decoration-line: initial;
+    color: rgb(193, 20, 16);
+}
+
+header nav ul li {
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .imagem {
