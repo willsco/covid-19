@@ -52,6 +52,19 @@ header nav ul li {
     max-width: 1280px;
 }
 
-.imagem {
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h1::after {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 4px;
+    margin: 0 auto 0;
+    background-color: #c11410;
+}
+
+.image {
     max-width: 100%;
 }
