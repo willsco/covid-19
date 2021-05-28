@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<!-- Abre tag "head" para configurações e carregamento de arquivos -->
+
+<head>
+    <!-- Faz primeira conexão e fica na "escuta" para carregar arquivos estáticos do Google (opcional) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Carrega fonte diretamente do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Exibe ícone para aba do navegador-->
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <!-- Define diretriz para não haver cache na máquina do usuário (precisa ser compativel com o servidor)-->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <!-- Outra diretriz para evitar cache na máquina do usuário -->
+    <meta http-equiv="pragma" content="no-cache" />
+    <!-- Define a codificação da página -->
+    <meta charset="UTF-8">
+    <!-- Exibe o título na aba do navegador -->
+    <title>Sobre e Contato</title>
+    <!-- Tag exclusiva para Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tag que define marcação inicial para responsividade do layout mediante "media queries"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carrega o arquivo CSS customizado -->
+    <link rel="stylesheet" type="text/css" media="screen, print" href="css\custom.css" />
+
+    <!-- Tag para entrada de CSS estático diretamente no corpo do arquivo (NÃO RECOMENDADO) -->
+    <style>
+        /* não é recomendado adicionar CSS ao corpo do HTML, porém há exceções*/
+    </style>
+</head> <!-- Fecha tag "head" -->
+
+<!-- Abre tag "body" onde vai o conteúdo do sítio -->
+
+<body>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html"><img class="logo-header" src="img/covid_img.png" alt=""></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <section>
+                <article>
+                    <h1>Sobre e Contato</h1>
+                    <p>Site criado para avaliação em treinamento de HTML/CSS para a disciplina de Arte e Design II.</p>
+                    <p>Criador: William Oliveira</p>
+                    <p>E-mail: williamgambas@gmail.com</p>
+                    
+                    <div class="thumb tleft"> <img alt="" src="img/minha-foto.png" decoding="async" height="300" class="thumbimage">
+                    </div>
+                    <div class="form-about">
+                        <form action="" target="_blank">
+                            Nome:<br>
+                            <input type="text" name="name" placeholder="Seu nome" value=""><br>
+                            E-mail:<br>
+                            <input type="text" name="email" placeholder="Seu E-mail" value=""><br>
+                            Descrição:<br>
+                            <textarea name="description" rows="4"
+                                cols="50" placeholder="Escreva sua mensagem."></textarea><br><br>
+                            <input class="btn" type="submit" value="Enviar">
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo"><img src="img/covid_img.png" alt=""></div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

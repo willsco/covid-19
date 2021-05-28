@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<!-- Abre tag "head" para configurações e carregamento de arquivos -->
+
+<head>
+    <!-- Faz primeira conexão e fica na "escuta" para carregar arquivos estáticos do Google (opcional) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Carrega fonte diretamente do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Exibe ícone para aba do navegador-->
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <!-- Define diretriz para não haver cache na máquina do usuário (precisa ser compativel com o servidor)-->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <!-- Outra diretriz para evitar cache na máquina do usuário -->
+    <meta http-equiv="pragma" content="no-cache" />
+    <!-- Define a codificação da página -->
+    <meta charset="UTF-8">
+    <!-- Exibe o título na aba do navegador -->
+    <title>Vacinas</title>
+    <!-- Tag exclusiva para Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tag que define marcação inicial para responsividade do layout mediante "media queries"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carrega o arquivo CSS customizado -->
+    <link rel="stylesheet" type="text/css" media="screen, print" href="css\custom.css" />
+
+    <!-- Tag para entrada de CSS estático diretamente no corpo do arquivo (NÃO RECOMENDADO) -->
+    <style>
+        /* não é recomendado adicionar CSS ao corpo do HTML, porém há exceções*/
+    </style>
+</head> <!-- Fecha tag "head" -->
+
+<!-- Abre tag "body" onde vai o conteúdo do sítio -->
+
+<body>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html"><img class="logo-header" src="img/covid_img.png" alt=""></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <section>
+                <article>
+                    <h1>Sobre as Vacinas Desenvolvidas</h1>
+                    <div class="thumb tleft"> <img alt="" src="img/doses-vacina.png" decoding="async" height="350" class="thumbimage">
+                    </div>
+                    <p>Em estudos de fase III de desenvolvimento, várias vacinas contra a COVID-19 demonstraram eficácia de até 95% na prevenção de infecções sintomáticas da doença. Em março de 2021, 12 vacinas foram autorizadas por pelo menos uma autoridade reguladora nacional para uso público: duas vacinas de RNA (a vacina da Pfizer–BioNTech e a vacina da Moderna), quatro vacinas inativadas convencionais (BBIBP-CorV, CoronaVac, Covaxin e CoviVac), quatro vacinas de vetor viral (Sputnik V, a vacina Oxford–AstraZeneca, a Convidecia e a vacina Johnson & Johnson) e duas vacinas de subunidade proteica (EpiVacCorona e RBD-Dimer). No total, em março de 2021, 308 vacinas candidatas estavam em vários estágios de desenvolvimento, com 73 em pesquisa clínica, incluindo 24 em testes de fase I, 33 em testes de fase II e 16 na fase III.</p>
+
+                    <p>Muitos países implementaram planos de distribuição em fases que priorizam aqueles com maior risco de complicações, como idosos, e aqueles com alto risco de exposição e transmissão, como profissionais de saúde. Em 25 de março de 2021, 508,16 milhões de doses de vacinas contra COVID-19 foram administradas em todo o mundo com base em relatórios oficiais de agências nacionais de saúde. A AstraZeneca-Oxford prevê produzir 3 bilhões de doses em 2021, Pfizer-BioNTech 1,3 bilhões de doses e Sputnik V, Sinopharm, Sinovac e Johnson & Johnson 1 bilhão de doses cada. Moderna tem como objetivo a produção de 600 milhões de doses e Convidecia 500 milhões de doses em 2021. Em dezembro de 2020, mais de 10 bilhões de doses de vacinas foram encomendadas por vários países, sendo que cerca de metade das doses foram adquiridas por países de alta renda, que compreendem apenas 14% da população mundial.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo"><img src="img/covid_img.png" alt=""></div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="prevencao.html">Previna-se</a></li>
+                <li><a href="sobre.html">Contato</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
